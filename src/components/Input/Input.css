@@ -1,0 +1,24 @@
+#inputWrapper {
+    width: 100%;
+}
+#inputLabel {
+    display: inline-block;
+    margin-bottom: 1px;
+    padding-left: 1px;
+}
+.input-component-box {
+    padding-left: 0.75rem;  
+    padding-right: 0.75rem; 
+    padding-top: 0.5rem;    
+    padding-bottom: 0.5rem; 
+    border-radius: 0.5rem;  
+    background-color: #ffffff; 
+    color: #000000;         
+    outline: none;          
+    border: 1px solid #777777; 
+    width: 100%;            
+    transition: background-color 0.2s ease; 
+    &:focus {
+        background-color: #f9fafb; 
+    }
+}
